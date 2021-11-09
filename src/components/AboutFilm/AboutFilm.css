@@ -1,0 +1,15 @@
+.popularFilms {
+  display: flex;
+  align-items: center;
+}
+.buttons {
+  border: 1px solid blue;
+  padding: 5px 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.tvButton {
+  font-weight: bold;
+  border: none;
+  /* background-color: #fff; */
+}
