@@ -1,49 +1,8 @@
 import React, { useEffect, useState } from "react";
-import img2 from "../../images/money-heist.webp";
-import img1 from "../../images/game.jpg";
 import MovieCard from "../MovieCard/MovieCard";
 import AboutFilm from "../AboutFilm/AboutFilm";
 import "./Popular.css";
 import axios from "axios";
-
-const popularMovies = [
-  {
-    name: "Squid Game",
-    img: img1,
-    percentage: "80%",
-    date: "0CT 12, 2021",
-  },
-  {
-    name: "Money Heist",
-    img: img2,
-    percentage: "80%",
-    date: "0CT 12, 2021",
-  },
-  {
-    name: "Chhakka panja",
-    img: img2,
-    percentage: "80%",
-    date: "0CT 12, 2021",
-  },
-  {
-    name: "Kabbadi",
-    img: img1,
-    percentage: "80%",
-    date: "0CT 12, 2021",
-  },
-  {
-    name: "Chapaali Height",
-    img: img2,
-    percentage: "80%",
-    date: "0CT 12, 2021",
-  },
-  {
-    name: "Loot ",
-    img: img1,
-    percentage: "80%",
-    date: "0CT 12, 2021",
-  },
-];
 
 const Popular = () => {
   const [movies, setMovies] = useState([]);
